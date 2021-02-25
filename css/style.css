@@ -2,7 +2,10 @@
 /* 
 CSS style sheet for the periodic table of elements 
 */
-
+@font-face {
+  font-family: "Akaya Telivigala";
+  src: url("../fonts/Akaya_Telivigala/AkayaTelivigala-Regular.ttf");
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -13,47 +16,58 @@ CSS style sheet for the periodic table of elements
   
   /* Element selector */
   html {
-    background-color: orange;
-  }
-  body {
-    background-image: url("./tulips.jpeg");
+    background-image: url(./element-2.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
+  h1 {
+    font-family: "Akaya Telivigala";
+    color: rgb(225, 231, 235);
+    font-size: 3rem;
+    margin: 2rem;
+    padding: 2rem;
+  }
+  td {
+    font-family: "Akaya Telivigala", Arial, sans-serif;
+    width: 3vw;
+    height: 3vw;
+    border: 1px solid black;
+    text-align: center;
+}
   /* #ID selector */
-  #cool {
+  /* #cool {
     background-color: orangered;
   }
   /* .class selector */
-  .box {
+  /* .box {
     background-color: orchid;
-  }
+  } */
   
   /* element,element Selector
     element AND element 
     */
-  table,
+  /* table,
   div {
     background-color: paleturquoise;
-  }
+  } */
   
   /* element element Selector
     aka element inside element 
     */
-  div p {
+  /* div p {
     font-size: smaller;
-  }
+  } */
   
   /* element>element	 Selector  
     element parent element 
     */
   
-  div > p {
+  /* div > p {
     font-family: "Times New Roman", Times, serif;
     color: purple;
-  }
+  } */
   /* element+element  Selector
     element immediately after element */
   div + span {
