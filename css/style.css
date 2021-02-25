@@ -72,7 +72,10 @@ td:hover {
 tr:nth-child(n) :nth-child(1) {
   background-color: rgb(78, 103, 158);
 }
-tr:nth-child(n + 4):nth-child(-n + 7) > td:nth-child(n + 3):nth-child(-n + 12) {
+tr:nth-child(4) > td:nth-child(n + 3):nth-child(-n + 12),
+tr:nth-child(5) > td:nth-child(n + 3):nth-child(-n + 12),
+tr:nth-child(6) > td:nth-child(n + 4):nth-child(-n + 12),
+tr:nth-child(7) > td:nth-child(n + 4):nth-child(-n + 12) {
   background-color: rgb(58, 150, 30);
 }
 tr:nth-child(1) :nth-child(1),
@@ -82,23 +85,25 @@ tr:nth-child(4) > td:nth-child(16) {
   background-color: rgb(223, 220, 54);
 }
 tr:nth-child(1):nth-child(9) > td:nth-child(1) {
-  background-color: lightgoldenrodyellow;
+  background-color: rgb(228, 228, 161);
 }
 tr:nth-child(n-1) :nth-child(2) {
   background-color: rgb(160, 135, 111);
 }
-td:nth-child(17) {
+td:nth-child(17),
+tr:nth-child(7) :nth-child(15) {
   background-color: rgb(231, 169, 88);
 }
-td:nth-child(18) {
+td:nth-child(18),
+tr:nth-child(7) :nth-child(16) {
   background-color: rgb(172, 16, 138);
 }
 tr:nth-child(8) :nth-child(n + 2),
-tr:nth-child(6) > td:nth-child(3) {
+tr:nth-child(6) :nth-child(3) {
   background-color: rgb(119, 198, 230);
 }
 tr:nth-child(9) :nth-child(n + 2),
-tr:nth-child(7) :nth-child(n + 3):nth-child(-n + 4) {
+tr:nth-child(7) :nth-child(3) {
   background-color: rgb(58, 122, 131);
 }
 tr:nth-child(1) :nth-child(n + 2):nth-child(-n + 17),
