@@ -41,27 +41,17 @@ td {
   text-align: center;
   border-radius: 0.42vw;
 }
-
-/* pseudo class  */
-
-/* :hover */
-/* table:hover {
-  background-color: rgb(30, 32, 34);
-} */
 a {
   color: rgb(136, 131, 177);
   text-shadow: rgb(244, 248, 247);
   font-size: 2.3rem;
 }
-/* :visited */
 a:visited {
   color: green;
 }
 a:hover {
   color: rgb(23, 43, 14);
 }
-
-/* :focus */
 td:hover {
   filter: grayscale(0%);
   transform: scale(2);
@@ -69,7 +59,8 @@ td:hover {
   opacity: 1;
   z-index: 1;
 }
-tr:nth-child(n) :nth-child(1) {
+tr:nth-child(n) :nth-child(1),
+tr:nth-child(7) :nth-child(17) {
   background-color: rgb(78, 103, 158);
 }
 tr:nth-child(4) > td:nth-child(n + 3):nth-child(-n + 12),
@@ -78,15 +69,29 @@ tr:nth-child(6) > td:nth-child(n + 4):nth-child(-n + 12),
 tr:nth-child(7) > td:nth-child(n + 4):nth-child(-n + 12) {
   background-color: rgb(58, 150, 30);
 }
+tr:nth-child(3) :nth-child(13),
+tr:nth-child(4) :nth-child(13),
+tr:nth-child(5) > td:nth-child(n + 13):nth-child(-n + 14),
+tr:nth-child(6) > td:nth-child(n + 13):nth-child(-n + 15),
+tr:nth-child(7) > td:nth-child(n + 13):nth-child(-n + 14) {
+  background-color: rgb(180, 143, 177);
+}
+tr:nth-child(2) :nth-child(13),
+tr:nth-child(3) :nth-child(14),
+tr:nth-child(4) > td:nth-child(n + 14):nth-child(-n + 15),
+tr:nth-child(5) > td:nth-child(n + 15):nth-child(-n + 16),
+tr:nth-child(6) :nth-child(16) {
+  background-color: orange;
+}
 tr:nth-child(1) :nth-child(1),
 tr:nth-child(2) > td:nth-child(n + 14):nth-child(-n + 16),
 tr:nth-child(3) > td:nth-child(n + 15):nth-child(-n + 16),
 tr:nth-child(4) > td:nth-child(16) {
   background-color: rgb(223, 220, 54);
 }
-tr:nth-child(1):nth-child(9) > td:nth-child(1) {
+/* tr:nth-child(1):nth-child(9) > td:nth-child(1) {
   background-color: rgb(228, 228, 161);
-}
+} */
 tr:nth-child(n-1) :nth-child(2) {
   background-color: rgb(160, 135, 111);
 }
