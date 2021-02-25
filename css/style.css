@@ -79,16 +79,16 @@ td:hover {
   tr:nth-child(3n){
     background-color: rgb(235, 121, 121);
 } */
-tr:nth-last-child(1) {
+/* tr:nth-last-child(1) {
   background-color: forestgreen;
-}
+} */
 /* tr:nth-child(n) td:nth-child(2) {
   background-color: gold;
 } */
-tr:nth-child(n + 1) :first-child {
-  background-color: chocolate;
+/* tr:nth-child(n) :first-child {
+  background-color: rgb(105, 106, 170);
 }
-/* tr:nth-child(1) :nth-child(n + 3):nth-child(-n + 5) {
+tr:nth-child(2) :nth-child(n + 2):nth-child(-n + 5) {
   background-color: crimson;
 } */
 /* .class selector */
