@@ -19,7 +19,7 @@ CSS style sheet for the periodic table of elements
 html {
   font-family: "Akaya Telivigala", Arial, sans-serif;
   background-color: azure;
-  /* background-image: url(./element-2.jpg); */
+  background-image: url(../img/elements-1.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -60,9 +60,7 @@ a:visited {
 a:hover {
   color: rgb(23, 43, 14);
 }
-/* a:visited, a:hover{
-    color: green;
-} */
+
 /* :focus */
 td:hover {
   filter: grayscale(0%);
@@ -71,28 +69,43 @@ td:hover {
   opacity: 1;
   z-index: 1;
 }
-
-/* :nth-child() */
-/* tr:nth-child(2n){
-      background-color: grey;
-  }
-  tr:nth-child(3n){
-    background-color: rgb(235, 121, 121);
-} */
-/* tr:nth-last-child(1) {
-  background-color: forestgreen;
-} */
-/* tr:nth-child(n) td:nth-child(2) {
-  background-color: gold;
-} */
-/* tr:nth-child(n) :first-child {
-  background-color: rgb(105, 106, 170);
+tr:nth-child(n) :nth-child(1) {
+  background-color: rgb(78, 103, 158);
 }
-tr:nth-child(2) :nth-child(n + 2):nth-child(-n + 5) {
-  background-color: crimson;
-} */
-/* .class selector */
-.no-filling {
-  columns: none;
+tr:nth-child(n + 4):nth-child(-n + 7) > td:nth-child(n + 3):nth-child(-n + 12) {
+  background-color: rgb(58, 150, 30);
+}
+tr:nth-child(1) :nth-child(1),
+tr:nth-child(2) > td:nth-child(n + 14):nth-child(-n + 16),
+tr:nth-child(3) > td:nth-child(n + 15):nth-child(-n + 16),
+tr:nth-child(4) > td:nth-child(16) {
+  background-color: rgb(223, 220, 54);
+}
+tr:nth-child(1):nth-child(9) > td:nth-child(1) {
+  background-color: lightgoldenrodyellow;
+}
+tr:nth-child(n-1) :nth-child(2) {
+  background-color: rgb(160, 135, 111);
+}
+td:nth-child(17) {
+  background-color: rgb(231, 169, 88);
+}
+td:nth-child(18) {
+  background-color: rgb(172, 16, 138);
+}
+tr:nth-child(8) :nth-child(n + 2),
+tr:nth-child(6) > td:nth-child(3) {
+  background-color: rgb(119, 198, 230);
+}
+tr:nth-child(9) :nth-child(n + 2),
+tr:nth-child(7) :nth-child(n + 3):nth-child(-n + 4) {
+  background-color: rgb(58, 122, 131);
+}
+tr:nth-child(1) :nth-child(n + 2):nth-child(-n + 17),
+tr:nth-child(2) :nth-child(n + 3):nth-child(-n + 12),
+tr:nth-child(3) :nth-child(n + 3):nth-child(-n + 12),
+tr:nth-child(8) :nth-child(1),
+tr:nth-child(9) :nth-child(1) {
   border: none;
+  background-color: transparent;
 }
