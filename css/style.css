@@ -27,9 +27,9 @@ html {
 }
 h1 {
   /* font-family: "Akaya Telivigala"; */
-  color: rgb(235, 235, 225);
-  text-shadow: rgb(244, 248, 247);
-  font-size: 4.2rem;
+  color: rgb(21, 26, 75);
+  text-shadow: rgb(34, 39, 38);
+  font-size: 5.4rem;
   margin: 2rem;
   padding: 2rem;
 }
@@ -74,14 +74,14 @@ tr:nth-child(4) :nth-child(13),
 tr:nth-child(5) > td:nth-child(n + 13):nth-child(-n + 14),
 tr:nth-child(6) > td:nth-child(n + 13):nth-child(-n + 15),
 tr:nth-child(7) > td:nth-child(n + 13):nth-child(-n + 14) {
-  background-color: rgb(180, 143, 177);
+  background-color: rgb(224, 194, 222);
 }
 tr:nth-child(2) :nth-child(13),
 tr:nth-child(3) :nth-child(14),
 tr:nth-child(4) > td:nth-child(n + 14):nth-child(-n + 15),
 tr:nth-child(5) > td:nth-child(n + 15):nth-child(-n + 16),
 tr:nth-child(6) :nth-child(16) {
-  background-color: orange;
+  background-color: rgb(228, 146, 69);
 }
 tr:nth-child(1) :nth-child(1),
 tr:nth-child(2) > td:nth-child(n + 14):nth-child(-n + 16),
@@ -97,7 +97,7 @@ tr:nth-child(n-1) :nth-child(2) {
 }
 td:nth-child(17),
 tr:nth-child(7) :nth-child(15) {
-  background-color: rgb(231, 169, 88);
+  background-color: rgb(172, 122, 90);
 }
 td:nth-child(18),
 tr:nth-child(7) :nth-child(16) {
