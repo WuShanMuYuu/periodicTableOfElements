@@ -54,7 +54,7 @@ a:hover {
 }
 td:hover {
   filter: grayscale(0%);
-  transform: scale(20.42vw);
+  transform: scale(2.42);
   cursor: pointer;
   opacity: 1;
   z-index: 1;
@@ -89,9 +89,9 @@ tr:nth-child(3) > td:nth-child(n + 15):nth-child(-n + 16),
 tr:nth-child(4) > td:nth-child(16) {
   background-color: rgb(223, 220, 54);
 }
-/* tr:nth-child(1):nth-child(9) > td:nth-child(1) {
+tr:nth-child(1):nth-child(9) > td:nth-child(1) {
   background-color: rgb(228, 228, 161);
-} */
+}
 tr:nth-child(n-1) :nth-child(2) {
   background-color: rgb(160, 135, 111);
 }
